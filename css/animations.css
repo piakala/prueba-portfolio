@@ -1,0 +1,66 @@
+
+
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+     
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+     
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+       
+      }
+      100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+  }
+  
+  .banner-works-black, .about-me-banner-white {
+    animation: slide-in-right 30s linear infinite forwards;
+  }
+
+  /* ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+     
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+     
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+       
+      }
+      100% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+  }
+
+  .banner-works-green, .about-me-banner-green {
+    animation: slide-in-left 30s linear infinite reverse;
+  }

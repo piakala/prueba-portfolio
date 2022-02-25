@@ -1,0 +1,263 @@
+
+@font-face {
+    font-family: "Futura regular";
+    src: url("../fonts/Futura/FuturaStd\ Medium.otf");
+}
+@font-face {
+    font-family: "Futura CondensedBold";
+    src: url("../fonts/Futura/FuturaStd\ CondensedBold.otf");
+}
+@font-face {
+    font-family: "Bodoni-BoldCondensed";
+    src: url("../fonts/Bodoni-std/BodoniStd-BoldCondensed.otf");
+}
+
+a {
+  text-decoration: none; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+font-family: "Futura CondensedBold";
+font-size: 138px;
+border-bottom: 2px solid #A4E59E;
+padding-bottom: 3%;
+margin-top: 24px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+
+nav a {
+    display: inline;
+    color: black;
+    margin-bottom: 1%;
+}
+
+h1 {
+    font-family: 'Bodoni-BoldCondensed';
+    font-size: 208px;
+    text-align: justify;
+    color: #A4E59E;
+    letter-spacing: 1px;
+    margin-top: 32px;
+}
+
+h2 {
+    font-family: "Futura CondensedBold";
+    font-size: 80px;
+    text-align: center;
+   
+}
+
+.banner {
+    white-space: nowrap;
+   
+    max-width: 100%;
+    margin: 40px 0px;
+}
+.about-me-banner-white {
+    margin-bottom: 64px;
+    margin-top: 64px;
+    color: white;
+}
+
+
+
+.about-me-banner-green {
+    margin-top: 56px;
+    color: #A4E59E;
+}
+
+.about-me-section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2B2B2B;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+.profile-picture {
+    width: 25%;
+}
+.profile-picture img{
+    width: 100%;
+}
+
+.bio {
+    width: 50%;
+}
+
+.bio p {
+width: 100%;
+font-family: "Futura regular";
+font-size: 24px;
+line-height: 32px;
+color: white;
+
+}
+
+
+.works-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+.banner-works-black {
+ margin-bottom: 40px;
+}
+
+.banner-works-green {
+ color: #A4E59E;
+margin-top: 48px;
+}
+
+
+.works-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    align-content: center;
+    padding-top: 56px;
+    padding-bottom: 64px;
+}
+
+.works-container div {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #2B2B2B;
+}
+
+.works-container h3 {
+    min-height: 440px;
+    font-family: "Futura regular";
+    font-size: 44px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+div.uxui{
+    background-image: url("../img/uxui.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+div.photography {
+ background-image: url("../img/fotografia.png");
+ background-size: cover;
+ background-position: center;
+}
+
+div.illustration {
+    background-image: url("../img/illustracion.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-section {
+    background-color: #2B2B2B;
+    min-height: 500px;
+    font-size: 248px;
+    color: white;
+    padding-top: 156px;
+    padding-bottom: 100px;
+    font-family: "Futura regular";
+    font-size: 32px;
+    color: white;
+}
+
+.contact-elements-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact-elements-container div {
+width: 30%;
+margin-top: 56px;
+text-align: center;
+}
+
+.contact-elements-container img {
+    width: 35%;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+/* KERNING DE CONTACT */
+#c {
+    margin-left: -3px;
+}
+
+#t {
+    margin-left: 3px;
+}
+
+#c-nav {
+    margin-left: -7px;
+}
+
+#t-nav {
+    margin-left: 4px;
+}
+/*orden de elementos de seccion de contacto*/
+
+
+/* FOOTER */
+
+footer {
+    background-color:#2B2B2B;
+    font-family: "Futura regular";
+    font-size: 14px;
+    color:#A4E59E;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 48px;
+}
+
+footer a {
+    color: #A4E59E;
+}
+
+footer div {
+    padding: 16px 32px;
+}
+
+.section-footer {
+    font-size: 16;
+    font-family: "Futura CondensedBold";
+    margin-bottom: 8px;
+}
+
+footer p {
+    margin-bottom: 4px;
+}

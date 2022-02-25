@@ -1,0 +1,31 @@
+a {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+nav a:hover {
+color: #A4E59E;
+letter-spacing: 24px;
+}
+
+.works-container div:hover {
+   border-color: #A4E59E;
+   color: #A4E59E;
+}
+
+.works-container div:hover h3 {
+    color: #A4E59E;
+    
+ }
+
+ .works-container h3, .works-container div, .contact-elements-container p {
+    transition: all 0.5s ease-in-out;
+ }
+
+ .contact-elements-container div:hover {
+ letter-spacing: 8px;
+ }
+
+footer a:hover {
+    color: white;
+}
